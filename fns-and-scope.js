@@ -41,6 +41,11 @@ function getName(){
 
   //Code Here
 
+function welcome(){
+  var name = getName();
+
+  alert("Welcome, " + name);
+}
 
 //////////////////PROBLEM 4////////////////////
 
@@ -49,7 +54,9 @@ function getName(){
 
 //What is the difference between arguments and parameters?
 
-  //Answer Here
+  //Answer Here - Arguments are used at the creation of a function.  Parameters are infomation that you put in the () when initializing a function basically if they keyword function is to the left of the line it is an argument rather than a paramiter.
+
+
 
 
 //////////////////PROBLEM 5////////////////////
@@ -59,7 +66,7 @@ function getName(){
 //What are all the falsy values in JavaScript and how do you check if something is falsy?
 
 
-  //Answer Here
+  //Answer Here - 0 , "" , undefined , null, NaN, false are the falsy value.
 
 
 
@@ -70,6 +77,11 @@ function getName(){
 //Create a function called myName that returns your name
 
   //Code Here
+
+  function myName(){
+
+    return "Bryan Jackson";
+  }
 
 
 
