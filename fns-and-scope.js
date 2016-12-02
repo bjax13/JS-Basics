@@ -26,9 +26,10 @@ function getName(){
   var name = "";
   name = prompt("What is your name?")
 
-  if (name === null)
-
-  return
+  if (name === false){
+    name = prompt  ("I did not get your name.  Would you please give it to me?")
+  }
+  return name;
 }
 
 //////////////////PROBLEM 3////////////////////
