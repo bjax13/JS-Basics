@@ -89,8 +89,12 @@ function welcome(){
 
   //Code Here
 
+  var newMyName;
+  newMyName = myName;
+
 //Now alert the result of invoking newMyName
 
+alert(newMyName());
 
 
 //////////////////PROBLEM 7////////////////////
@@ -100,9 +104,15 @@ function welcome(){
 //Create a function called outerFn which returns an anonymous function which returns your name.
 
   //Code Here
+  function outerFn(){
+    return function() {return "Bryan Jackson"};
+  }
 
 //Now save the result of invoking outerFn into a variable called innerFn.
 
   //Code Here
+  var innerFn;
+  innerFn = outerFn();
 
 //Now invoke innerFn.
+  innerFn();
