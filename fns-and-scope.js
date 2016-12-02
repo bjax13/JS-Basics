@@ -1,10 +1,19 @@
 //////////////////PROBLEM 1////////////////////
 
 var name = 'BryanJackson';
+
+
 //Create a function called isTyler that accepts name as it's only parameter.
 //If the argument you passed in is equal to 'Tyler', return true. If it's not, return false.
 
   //Code Here
+  function isTyler(name){
+    if (name === 'Tyler') {
+      return true;
+    }else {
+      return false;
+    }
+  }
 
 //////////////////PROBLEM 2////////////////////
 
@@ -13,7 +22,14 @@ var name = 'BryanJackson';
 
 
   //Code Here
+function getName(){
+  var name = "";
+  name = prompt("What is your name?")
 
+  if (name === null)
+
+  return
+}
 
 //////////////////PROBLEM 3////////////////////
 
